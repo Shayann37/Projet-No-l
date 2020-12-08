@@ -1,0 +1,33 @@
+.centrer {
+    text-align: center;
+}
+
+.fond {
+    background-image: url("https://st4.depositphotos.com/1407534/22462/i/1600/depositphotos_224624304-stock-photo-cars-sale-stock-lot-row.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 150% ;
+}
+
+div {
+    width: 320px;
+    height: 610px;
+    border: 5px solid;
+    margin: auto;
+}
+
+.text {
+    color: darkorange;
+    opacity: 87%;
+    font-family: "Comic Sans MS";
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.titre {
+    font-family: "Comic Sans MS";
+}
+
+

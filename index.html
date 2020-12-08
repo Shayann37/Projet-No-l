@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Projet de Noël</title>
+    <script src="./js/projetNoel.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/projetNoel.css"/>
+</head>
+<body class="fond">
+<h1><span class="titre">Voici votre site de commande</span></h1>
+<div>
+    <form id="achat" class="text" onsubmit="return acheterVoiture(this)">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom"><br>
+        <label for="age">Age :</label><br>
+        <input type="text" id="age" name="age"><br>
+        <label for="adresse">Adresse</label><br>
+        <input type="text" id="adresse" name="adresse"><br>
+        <p></p>
+        <label>Quelle voiture choisissez vous ?</label><br>
+        <p></p>
+        <input type="radio" id="renault" name="voiture1" value="renault">
+        <label for="renault">Renault</label><br>
+        <input type="radio" id="audi" name="voiture1" value="audi">
+        <label for="audi">Audi</label><br>
+        <input type="radio" id="mercedes" name="voiture1" value="mercedes">
+        <label for="mercedes">Mercedes</label><br>
+        <input type="radio" id="bmw" name="voiture1" value="bmw">
+        <label for="bmw">BMW</label><br>
+        <p></p>
+        <button type="button" onclick="acheterVoiture();">Commander</button><br>
+        <input type="reset"><br>
+    </form>
+</div>
+</body>
+</html>
